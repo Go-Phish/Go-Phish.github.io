@@ -1,0 +1,131 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+html {  
+    width: 100%;
+    height: 100%;
+    background-color: #adcad6;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #00ffff;
+}
+.navbar{
+    background-color: #5F838E;
+}
+.img-centered {
+  margin: 0 auto;
+}
+
+@media screen (min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+    .intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url(../img/wave.png); 
+    background-color: #adcad6;
+}
+}
+
+.logo1{
+    font-size: 29px;
+    color: #ffa500;
+}
+.logo2{
+    font-size: 29px;
+    color:#00ffff;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: left;
+    background-size: cover,30%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url(../img/wave.png),url(../img/blur-fish-inv-transparent.png);
+    
+    background-color: #adcad6;
+}
+.intro-section .tilt{
+    -ms-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+.intro-section h1{
+    font-weight: 600;
+    color: orange;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkorange;
+    font-size: 6vw;
+}
+.intro-section .center{
+   text-align: center;
+    width: 100%;
+    padding: 100px;
+    font-size: 18px;
+}
+.stat-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.howto-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+.fa-customlist{
+    text-align: left;
+     padding-left:20px; list-style:none;
+}
+.img-W-Blur, .img-blur{
+    border-radius: 25px;
+    background-position: center;
+background-image: url("../img/fishing-hook.png");
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+}
+.placeholder {
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 20px;
+    width: 230px;
+    height: 250px;
+    position: relative;
+    /* this is the only relevant part for the example */
+}
+ .img-blur {
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
