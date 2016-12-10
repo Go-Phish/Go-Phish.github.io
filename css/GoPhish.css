@@ -99,6 +99,23 @@ html {
     text-align: center;
     background: #eee;
 }
+.pass-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #5F838E;
+}
+
+.prevent-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+.prevent-section li{
+        text-align: left;
+}
+
 .fa-customlist{
     text-align: left;
      padding-left:20px; list-style:none;
@@ -130,6 +147,9 @@ background-image: url("../img/fishing-hook.png");
     filter: blur(20px);
 }
 
+
+
+
 .col-lg-8 {
     
 }
@@ -139,4 +159,11 @@ background-image: url("../img/fishing-hook.png");
 }
 #stat-portfolio .col-lg-6 img {
     margin-top: 16px;
+}
+
+#pass-it-on h1 .logo1,#pass-it-on h1 .logo2{
+    font-size:3vw;
+}
+#pass-it-on p{
+    font-weight:bold;
 }
