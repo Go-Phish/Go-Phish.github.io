@@ -129,3 +129,11 @@ background-image: url("../img/fishing-hook.png");
     -ms-filter: blur(20px);
     filter: blur(20px);
 }
+
+.col-lg-8 {
+    
+}
+
+#stat-portfolio img {
+    margin: 25px;
+}
