@@ -167,3 +167,8 @@ background-image: url("../img/fishing-hook.png");
 #pass-it-on p{
     font-weight:bold;
 }
+
+#btnfish {
+    height: 64px;
+    margin: auto;
+}
